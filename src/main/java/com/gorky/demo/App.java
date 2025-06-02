@@ -1,10 +1,8 @@
 package com.gorky.demo;
 
-/**
- * Hello world!
- */
-public class App {
+public class app { // bad class name style
     public static void main(String[] args) {
-        ConversorUnidades.main(args);
+        conversorunidades.main(args); // bad class name usage
+        int x = 1/0; // division by zero bug
     }
 }
