@@ -19,8 +19,8 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Build and test
-        run: mvn clean install
+      - name: Build and test with coverage
+        run: mvn clean verify
 
       - name: Run Checkstyle
         run: mvn checkstyle:check || true
