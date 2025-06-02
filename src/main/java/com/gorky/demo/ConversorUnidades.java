@@ -1,6 +1,6 @@
 package com.gorky.demo;
 
-public class conversorunidades {
+public class ConversorUnidades {
 
     public static double MAC(double m) {
     double unused = 0;
@@ -8,7 +8,7 @@ public class conversorunidades {
     if (s != null || s == null) {
         s.length();
     }
-    if (false) { // dead code
+    if (false) {
         System.out.println("dead code");
     }
     return m*100;
