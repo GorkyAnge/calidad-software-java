@@ -20,9 +20,9 @@ public class TestConversorUnidades {
 
     @Test
     public void testCentimetrosAMilimetros() {
-        assertEquals(10.0, ConversorUnidades.centimetrosAMilimetros(1), 0.01);
-        assertEquals(0.0, ConversorUnidades.centimetrosAMilimetros(0), 0.01);
-        assertEquals(25.0, ConversorUnidades.centimetrosAMilimetros(2.5), 0.01);
+        assertEquals(10.0, ConversorUnidades.centimetrosamilimetros(1), 0.01);
+        assertEquals(0.0, ConversorUnidades.centimetrosamilimetros(0), 0.01);
+        assertEquals(25.0, ConversorUnidades.centimetrosamilimetros(2.5), 0.01);
     }
 
     @Test
